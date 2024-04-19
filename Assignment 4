@@ -1,0 +1,12 @@
+##Assignment 4: BMI Calculator (weight/height^2)
+##FUNCTIONS##
+#Enter height in meters
+height = input()
+#Enter weight in Kg
+weight = input()
+
+##INPUT##
+weight_int = int(weight)
+height_float = float(height)
+BMI = weight_int / (height_float**2)
+print(int(BMI))
