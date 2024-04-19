@@ -1,39 +1,3 @@
 ##Assignment 1: Hello World ##Print Statement
 print('Dyrbin said "Hello World" and left')
 print("Dyrbin said \"Hello World\" and left')
-
-##Assignment 2: Switch values stored in variables x and y
-x = input()
-y = input()
-z = y
-y = x
-x = z
-print("a: " + a)
-print("b: " + b)
-
-##Assignment 3: Add the digits in a 2 digit number (TDN) eg. if input is 35, output is 3 + 5 = 8
-TDN = input()
-a = (TDN[0])
-b = (TDN[1])
-print(int(a)+int(b))
-
-##Assignment 4: BMI Calculator (weight/height^2)
-##FUNCTIONS##
-#Enter height in meters
-height = input()
-#Enter weight in Kg
-weight = input()
-
-##INPUT##
-weight_int = int(weight)
-height_float = float(height)
-BMI = weight_int / (height_float**2)
-print(int(BMI))
-
-##Assignment 5: Life in Weeks Calculator (Until 90 Years Old) #fstrings
-age = input()
-weeks_per_year = int(52)
-age_max = int(90)
-years_to_live = age_max - int(age)
-weeks_to_live = years_to_live * weeks_per_year
-print(f"Happily live your remaining {weeks_to_live} weeks on Earth")
