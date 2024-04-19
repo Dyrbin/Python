@@ -30,7 +30,6 @@ height_float = float(height)
 BMI = weight_int / (height_float**2)
 print(int(BMI))
 
-
 ##Assignment 5: Life in Weeks Calculator (Until 90 Years Old) #fstrings
 age = input()
 weeks_per_year = int(52)
