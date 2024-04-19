@@ -1,0 +1,11 @@
+##Request input from user
+bill_USD = float(input("What is the total bill ($)? "))
+tip_percent = int(input("How much do you want to tip (%)? "))
+people = int(input("Split how many ways? "))
+
+#Cost Per Person
+cost_per_person = ((bill_USD) * (1 + tip_percent / 100)) / people
+cost_per_person = round(cost_per_person, 2)
+
+#Amount Owed Per Person
+print(f"Each person pays ${cost_per_person}")
