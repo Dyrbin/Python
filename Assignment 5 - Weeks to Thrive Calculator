@@ -4,4 +4,4 @@ weeks_per_year = int(52)
 age_max = int(90)
 years_to_live = age_max - int(age)
 weeks_to_live = years_to_live * weeks_per_year
-print(f"Happily live your remaining {weeks_to_live} weeks on Earth")
+print(f"You have {weeks_to_live} weeks left to thrive on Earth!")
