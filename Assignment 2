@@ -1,4 +1,4 @@
-##Assignment 2: Switch values stored in variables x and y
+##Assignment 2: Switch values stored in variables x and y##
 x = input()
 y = input()
 z = y
