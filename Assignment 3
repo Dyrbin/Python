@@ -1,4 +1,4 @@
-##Assignment 3: Add the digits in a 2 digit number (TDN) eg. if input is 35, output is 3 + 5 = 8
+##Assignment 3: Add the digits in a 2 digit number (TDN) eg. if input is 35, output is 3 + 5 = 8##
 TDN = input()
 a = (TDN[0])
 b = (TDN[1])
