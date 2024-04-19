@@ -1,4 +1,4 @@
-##Generate a band name based on city and pet name
+##Generate a band name based on city and pet name##
 Greeting_Name = input("Hello Rockstar!!!! What's your name?\n")
 City = input("What city did you grow up in " + Greeting_Name + "?\n")
 Pet = input("What's the name of your favorite pet?!\n")
