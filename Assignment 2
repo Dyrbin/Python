@@ -1,0 +1,8 @@
+##Assignment 2: Switch values stored in variables x and y
+x = input()
+y = input()
+z = y
+y = x
+x = z
+print("a: " + a)
+print("b: " + b)
